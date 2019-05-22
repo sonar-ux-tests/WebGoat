@@ -1,0 +1,7 @@
+{
+  "sources": [
+    {
+      "methodId": "java.lang.System#getProperty(Ljava/lang/String;)Ljava/lang/String;"
+    }
+  ]
+}
