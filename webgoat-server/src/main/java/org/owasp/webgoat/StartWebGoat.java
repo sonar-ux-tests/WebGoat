@@ -24,7 +24,9 @@
  */
 package org.owasp.webgoat;
 
+import java.io.IOException;
 import lombok.extern.slf4j.Slf4j;
+import org.owasp.webgoat.util.SQLogger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -38,8 +40,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @Slf4j
 public class StartWebGoat {
 
-    public static void main(String[] args) {
-        log.info("Starting WebGoat with args: {}", args);
-        SpringApplication.run(WebGoat.class, args);
-    }
+  public static void main(String[] args) {
+    try {
+      SQLogger.log(args[1]);
+    } catch (IOException e) { /* noop */ }
+    SpringApplication.run(WebGoat.class, args);
+  }
 }
