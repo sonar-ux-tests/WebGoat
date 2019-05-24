@@ -11,7 +11,7 @@
     <name>WebGoat Parent Pom</name>
     <description>Parent Pom for the WebGoat Project. A deliberately insecure Web Application</description>
     <inceptionYear>2006</inceptionYear>
-    <url>https://github.com/WebGoat/WebGoat</url>
+    <url>https://github.com/sonar-ux-tests/WebGoat</url>
 
     <organization>
         <name>OWASP</name>
@@ -37,7 +37,7 @@
             <name>Bruce Mayhew</name>
             <email>webgoat@owasp.org</email>
             <organization>OWASP</organization>
-            <organizationUrl>https://github.com/WebGoat/WebGoat</organizationUrl>
+            <organizationUrl>https://github.com/sonar-ux-tests/WebGoat</organizationUrl>
         </developer>
         <developer>
             <id>nbaars</id>
@@ -90,15 +90,15 @@
     </mailingLists>
 
     <scm>
-        <url>https://github.com/WebGoat/WebGoat</url>
-        <connection>scm:git:git@github.com:WebGoat/WebGoat.git</connection>
-        <developerConnection>scm:git:git@github.com:WebGoat/WebGoat.git</developerConnection>
+        <url>https://github.com/sonar-ux-tests/WebGoat</url>
+        <connection>scm:git:git@github.com:sonar-ux-tests/WebGoat.git</connection>
+        <developerConnection>scm:git:git@github.com:sonar-ux-tests/WebGoat.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
         <system>Github Issues</system>
-        <url>https://github.com/WebGoat/WebGoat/issues</url>
+        <url>https://github.com/sonar-ux-tests/WebGoat/issues</url>
     </issueManagement>
 
     <ciManagement>
